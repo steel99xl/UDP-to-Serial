@@ -1,6 +1,6 @@
 import time
 from serial import Serial
-import socketserver
+import socket
 
 def Main():
     SER = Serial(
